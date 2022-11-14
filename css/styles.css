@@ -1,5 +1,6 @@
 @import './extra/normilize.css';
 @import './extra/variables.css';
+@import './extra/extra-classes.css';
 @import './extra/container.css';
 @import './extra/section.css';
 @import './components/header.css';

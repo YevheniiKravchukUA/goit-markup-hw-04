@@ -78,6 +78,7 @@
   letter-spacing: 0.02em;
 
   color: var(--second-color);
+  fill: var(--second-color);
 
   min-height: 80px;
 }
@@ -85,8 +86,12 @@
 .address-list__link:hover,
 .address-list__link:focus {
   color: var(--active-color);
+  fill: var(--active-color);
 }
 
+.header__svg {
+  margin-right: 10px;
+}
 .current {
   color: var(--active-color);
 }
