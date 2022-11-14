@@ -1,0 +1,36 @@
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  background-color: var(--dark-background);
+}
+
+.footer .logo {
+  display: block;
+  margin-bottom: 20px;
+  margin-right: 0px;
+
+  color: var(--white-color);
+}
+
+.address__item-link {
+  font-style: normal;
+  font-weight: var(--primary-weight);
+  font-size: var(--primary-size);
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  color: inherit;
+}
+
+.address__list {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.address__item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+.address__item:first-child {
+  color: var(--white-color);
+}
